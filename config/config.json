@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "tenant",
+    "password": "tenant12345",
+    "database": "tenant",
+    "host": "tenantdb.c29v1welcmzq.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "tenant",
+    "password": "tenant12345",
+    "database": "database_test",
+    "host": "tenantdb.c29v1welcmzq.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "tenant",
+    "password": "tenant12345",
+    "database": "database_production",
+    "host": "tenantdb.c29v1welcmzq.us-east-1.rds.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

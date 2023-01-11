@@ -1,0 +1,84 @@
+<%- include('../../partials/header') %>
+
+  <!-- summernote -->
+
+
+<div class="content-wrapper">
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <!-- <h1>Employees </h1> -->
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <!-- <li class="breadcrumb-item active">Employees</li> -->
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title"> Queries</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form method="post" action="">
+
+                            <div class="card-body row">
+                                <!-- <div class="form-group col-md-3"> -->
+
+                                    <!-- <label for="id"> ID</label> -->
+                                    <input type="hidden" class="form-control" id="en" placeholder=" ID" name="id">
+                                <!-- </div>  -->
+                                
+                                <div class="form-group col-md-3">
+                                  <label for="table">Table</label>
+                                  <select class="form-control select2" style="width: 100%;" name="user_id" value="" required>
+                                      <option selected="selected">Select Table</option>
+                                   
+                                      <option value="">Hello</option>
+                              
+                                    </select>
+                              </div>
+                              <div class="form-group col-md-3">
+                                <label for="field">fields</label>
+                                <select class="form-control select2" style="width: 100%;" name="user_id" value="" required>
+                                    <option selected="selected">Select Fields</option>
+                                 
+                                    <option value="">Hello</option>
+                            
+                                  </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="operators">Operators</label>
+                                <select class="form-control select2" style="width: 100%;" name="user_id" value="" required>
+                                    <option selected="selected">Select Operators</option>
+                                 
+                                    <option value="">Hello</option>
+                            
+                                  </select>
+                            </div>
+                           
+                            </div>
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+   
+
+    <%- include('../../partials/footer') %>
